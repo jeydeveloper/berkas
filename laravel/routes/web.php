@@ -30,3 +30,5 @@ Route::resource('permissions', 'PermissionController');
 Route::resource('posts', 'PostController');
 
 Route::resource('tipeberkas', 'TipeberkasController');
+
+Route::resource('berkas', 'BerkasController');
