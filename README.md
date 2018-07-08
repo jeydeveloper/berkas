@@ -13,6 +13,5 @@ Lokasi Berkas
 # langkah-langkah instalasi
 - composer install (terminal di root)
 - Buat database baru, misal: "berkas"
-- Update file "app/Providers/AppServiceProvider.app" (referensi log point (2))
 - Buka "http://yourdomain/install", ikuti langkah-langkahnya (dia akan buat file baru "storage/installed", bila ingin mengulangi instalasi dikarenakan terjadi error, hapus file baru tersebut)  (referensi log point (1))
 - php artisan migrate (terminal di root)
